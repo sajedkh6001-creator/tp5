@@ -1,0 +1,84 @@
+/* 1. Style général de la page */
+body {
+    background-color:#0b2545;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #dfb15b;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.5px;  
+    
+}
+
+.carte {
+    position: relative;          
+    width: 550px;
+    background:linear-gradient(135deg,#8da4ef 0%,#b2cfef 100%);
+    margin: 20px auto;           
+    padding: 25px;
+    border-radius: 50px;
+    box-shadow: 0 8px 20px rgba(26, 2, 243, 0.721);
+    
+    display: flex;
+    align-items: center;
+}
+
+.badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #27ae60;
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.carte img {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 8px 20px rgb(0, 0, 0);
+}
+
+.carte img:hover {
+    opacity: 0.9;                
+}
+
+.infos h2 {
+    margin: 0 10PX 5px 0;
+    color: #012b5e;
+}
+
+.infos h3 {
+    margin: 10px 0 5px 0;
+    font-size: 16px;
+    color: #34495e;
+}
+
+.infos p {
+    margin: 5px 0;
+    color: #555555;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.infos ul {
+    margin: 5px 0;
+    padding-left: 20px;
+    color: #555555;
+    font-size: 14px;
+}
+
+.contact {
+    font-weight: bold;
+    color: #2980b9 ;
+}
